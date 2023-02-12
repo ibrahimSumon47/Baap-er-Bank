@@ -17,18 +17,18 @@
     </header>
     <main>
         <section class="mt-12">
-            <div class="grid grid-cols-3 gap-4 place-content-evenly w-9/12 mx-auto  text-slate-200">
-                <div class="bg-green-600 rounded-lg p-8">
+            <div class="grid grid-cols-3 gap-4 place-content-evenly w-9/12 mx-auto">
+                <div class="bg-green-600 rounded-lg p-8 text-slate-200">
                     <h4 class="text-2xl">Deposit</h4>
-                    <h2 class="text-5xl">৳00</h2>
+                    <h2 class="text-5xl">৳<span id="deposit-total">00</span></h2>
                 </div>
-                <div class="bg-pink-400 rounded-lg p-8">
+                <div class="bg-pink-400 rounded-lg p-8 text-slate-200">
                     <h4 class="text-2xl">Withdraw</h4>
                     <h2 class="text-5xl">৳00</h2>
                 </div>
                 <div class="bg-orange-600 rounded-lg p-8">
                     <h4 class="text-2xl">Balance</h4>
-                    <h2 class="text-5xl">৳10000</h2>
+                    <h2 class="text-5xl">৳<span id="balance-total">10000</span></h2>
                 </div>
             </div>
         </section>
@@ -54,6 +54,7 @@
             </div>
         </section>
     </main>
+    <script src="js/deposit.js"></script>
 </body>
 
 </html>
